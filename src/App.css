@@ -4,7 +4,7 @@
 }
 
 html {
-  background-color: #007dc1;
+  background-color: #007dc1 !important;
   overflow: hidden;
 }
 .card {
@@ -13,9 +13,24 @@ html {
   overflow: hidden;
   align-self: center;
   vertical-align: center;
-  background-color: #007dc1;
+  background-color: #007dc1 !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .carousel-container {
   overflow: hidden;
+}
+
+.carousel-root {
+  background-color: #007dc1 !important;
+}
+
+.signin-card {
+  background-color: #fff;
+  width: 700px;
+  height: 700px;
+  margin-left: 30%;
+  padding: 5%;
 }
